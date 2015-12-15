@@ -122,7 +122,7 @@ safe: false
 highlighter: pygments
 title: 我的日常
 description: 天天向上
-theme: merlot
+theme: kunka
 disqusname: glbing
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
