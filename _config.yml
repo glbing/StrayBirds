@@ -83,6 +83,8 @@ follow:
     url: http://renren.com
   - class: icon-github-alt
     url: http://github.com
+  - class: icon-twitte
+    url: http://twitter.com
   - class: icon-google-plus
     url: http://google.com
 
@@ -97,13 +99,13 @@ customLinks:
       url: http://nba.hupu.com
     message: Friends
   - item:
-    - text: Font Awesome
-      url: http://fortawesome.github.io/Font-Awesome/
-    - text: Google Font
-      url: http://www.google.com/fonts/
-    - text: jQuery
-      url: http://jquery.com/
-    message: 其他相关链接
+    - text: Google
+      url: http://www.google.com
+    - text: Baidu
+      url: http://www.baidu.com
+    - text: Tencent
+      url: http://www.qq.com/
+    message: 其他
 
 #comment config
 disqus:
