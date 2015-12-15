@@ -83,7 +83,7 @@ follow:
     url: http://renren.com
   - class: icon-github-alt
     url: http://github.com
-  - class: icon-twitter
+  - class: icon-twitte
     url: http://twitter.com
   - class: icon-google-plus
     url: http://google.com
@@ -115,7 +115,7 @@ disqus:
 
 #################################### global configure #######################################
 
-username: minixalpha
+username: glbing
 baseurl: /StrayBirds
 markdown: redcarpet
 safe: false
