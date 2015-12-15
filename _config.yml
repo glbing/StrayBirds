@@ -120,8 +120,8 @@ baseurl: /blogs
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 我的日常记录
-description: day day up
+title: 我的日常
+description: 天天向上
 theme: kunka
 disqusname: glbing
 
