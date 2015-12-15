@@ -70,7 +70,7 @@ author:
     imageLink: https://avatars.githubusercontent.com/minixalpha
     simpleIntro: 就读于中山大学,记录日常的学习和生活,day day up.
     detailIntro:
-      <p>平常Jekyll 是一个简洁的,特别针对博客平台的静态网站生成器,可以生成一个完整的静态Web站点,可以被放置在Apache或者你喜欢的其他任何Web服务器上.它同时也是 GitHub Pages ,一个由 GitHub 提供的用于托管项目主页或博客的服务.</p>
+      <p>Jekyll 是一个简洁的,特别针对博客平台的静态网站生成器,可以生成一个完整的静态Web站点,可以被放置在Apache或者你喜欢的其他任何Web服务器上.它同时也是 GitHub Pages ,一个由 GitHub 提供的用于托管项目主页或博客的服务.</p>
       <p>学习生活中，常常遇到一些问题,尤其是原理性的,要理解的东西,往往是很有价值的.俗话说得好,好记性不如烂笔头,所以利用github pages和Jekyll将笔记整理于此</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
