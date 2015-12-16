@@ -109,7 +109,7 @@ customLinks:
 
 #comment config
 disqus:
-  config: true
+  config: false
   id: glbing
 
 
