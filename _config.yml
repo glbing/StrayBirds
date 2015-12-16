@@ -97,7 +97,7 @@ customLinks:
       url: http://www.zhihu.com/
     - text: NBA
       url: http://nba.hupu.com
-    message: 常用
+    message: Friends
   - item:
     - text: Google
       url: http://www.google.com
@@ -105,7 +105,7 @@ customLinks:
       url: http://www.baidu.com
     - text: Tencent
       url: http://www.qq.com/
-    message: 其他
+    message: Else
 
 #comment config
 disqus:
