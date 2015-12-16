@@ -83,8 +83,6 @@ follow:
     url: http://renren.com
   - class: icon-github-alt
     url: http://github.com
-  - class: icon-twitte
-    url: http://twitter.com
   - class: icon-google-plus
     url: http://google.com
 
@@ -109,7 +107,7 @@ customLinks:
 
 #comment config
 disqus:
-  config: false
+  config: true
   id: glbing
 
 
