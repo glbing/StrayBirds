@@ -1,7 +1,7 @@
 ---
 layout: post
 title: install-caffe
-category: 深度学习-DL
+category: DL
 comments: false
 ---
 
