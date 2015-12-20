@@ -55,6 +55,7 @@ Test()；
 
 在solver.cpp中有3中solver，即3个类：AdaGradSolver, SGDSolver和NesterovSolver可供选择。
 
+
 关于loss，可以同时有多个loss，可以加regularization（L1/L2）；
 ***
 #### Protocol buffer：
