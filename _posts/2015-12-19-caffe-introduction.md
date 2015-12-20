@@ -40,10 +40,10 @@ net中的数据和求导结果通过4维的blob传递。一个layer有很多blob
 
 . 对conv层，weight blob大小为 Output 节点数 x Input 节点数 x Height x Width，如AlexNet第一个conv层的blob大小为96 x 3 x 11 x 11；  
 
-. 对inner product(全连接) 层， weight blob大小为 1\*1 \* Output节点数\*Input节点数； bias blob大小为1\*1\*1\* Output节点数（ conv层和inner product层一样，也有weight和bias（偏移），所以在网络结构定义中我们会看到两个blobs_lr，第一个是weights的，第二个是bias的。类似地，weight_decay也有两个，一个是weight的，一个是bias的）；
+. 对inner product(全连接) 层， weight blob大小为 1\*1 \* Output节点数\*Input节点数； bias blob大小为1\*1\*1\* Output节点数（ conv层和inner product层一样，也有weight和bias（偏移），所以在网络结构定义中我们会看到两个blobs\_lr，第一个是weights的，第二个是bias的。类似地，weight\_decay也有两个，一个是weight的，一个是bias的）；
 
 
-blob中，mutable_cpu/gpu_data() 和cpu/gpu_data()用来管理memory，cpu/gpu_diff()和 mutable_cpu/gpu_diff()用来计算求导结果。
+blob中，mutable_cpu/gpu_data() 和cpu/gpu\_data()用来管理memory，cpu/gpu_diff()和 mutable\_cpu/gpu_diff()用来计算求导结果。
 
 **slover.cpp:**   
 结合loss，用gradient更新weights。主要函数：
@@ -76,7 +76,7 @@ Caffe的所有message定义在$CAFFE/src/caffe/proto/caffe.proto中。
 #### caffe训练基本流程：
 
 **1 数据处理**  
-法一，转换成caffe接受的格式：lmdb, leveldb, hdf5 / .mat, list of images, etc.；法二，自己写数据读取层(如https://github.com/tnarihi/tnarihi-caffe-helper/blob/master/python/caffe_helper/layers/data_layers.py)  
+法一，转换成caffe接受的格式：lmdb, leveldb, hdf5 / .mat, list of images, etc.；法二，自己写数据读取层(如https://github.com/tnarihi/tnarihi-caffe-helper/blob/master/python/caffe\_helper/layers/data\_layers.py)  
 
 **2 定义网络结构**   
 主要编写model的prototxt
