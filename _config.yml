@@ -115,7 +115,7 @@ disqus:
 
 username: glbing
 baseurl: /blogs
-markdown: redcarpet
+markdown: kramdown
 safe: false
 highlighter: rouge
 title: 我的网站
