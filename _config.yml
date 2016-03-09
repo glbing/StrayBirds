@@ -117,7 +117,7 @@ username: glbing
 baseurl: /blogs
 markdown: redcarpet
 safe: false
-highlighter: pygments
+highlighter: rouge
 title: 我的网站
 description: 天天向上
 theme: kunka
