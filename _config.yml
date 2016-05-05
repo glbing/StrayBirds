@@ -113,7 +113,7 @@ disqus:
 
 #################################### global configure #######################################
 
-username: glbing
+username: glb
 baseurl: /blogs
 markdown: kramdown
 safe: false
