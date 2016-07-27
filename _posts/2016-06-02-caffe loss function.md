@@ -4,11 +4,12 @@ title: caffe loss function
 category: DL
 comments: false
 ---
-##### 结合caffe的实现分析一下常用得loss function
+#####  结合caffe的实现分析一下常用得loss function
 
 ![sunshi](https://raw.githubusercontent.com/glbing/blogs/gh-pages/images/sunshi.png)   
 
-###### 欧式距离损失函数（Euclidean Loss）
+#####  欧式距离损失函数（Euclidean Loss）
+
 输入：  
 预测的值： y^∈[−∞,+∞] , shape为：N×C×H×W,N为batch的大小   
 标签的值： y∈[−∞,+∞] , shape为：N×C×H×W   

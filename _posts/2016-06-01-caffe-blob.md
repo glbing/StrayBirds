@@ -4,7 +4,6 @@ title: caffe-blob
 category: DL
 comments: false
 ---
-######  
 
 blob的主要数据成员：data_，diff_，shape_
 
