@@ -1,6 +1,6 @@
 ---
 layout: post
-title: caffe-loss_function
+title: caffe loss function
 category: DL
 comments: false
 ---
