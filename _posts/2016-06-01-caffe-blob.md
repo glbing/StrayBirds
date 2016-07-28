@@ -11,7 +11,7 @@ data_：指向SyncedMemory的智能指针，SyncedMemory是负责内存操作的
 
 diff_：指向SyncedMemory的智能指针，SyncedMemory是负责内存操作的类，该数据成员表示后向数据（梯度）
 
-shape_：vertor<int>,blob由于看作为存储数据的4维数组，所以shape_表示4维数组的d的大小，如下：   
+shape_：blob由于看作为存储数据的4维数组，所以shape_表示4维数组的大小，如下：     
 对于数据:num(输入数据量,比如sgd时,mini-batch的大小),channels(通道数量),height(图 片的高度),width(图片的宽度)   
 对于卷积权重:output*input*height*width  
 对于卷积偏置:output*1*1*1   
