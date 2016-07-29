@@ -24,3 +24,10 @@ N为batch size；也就是说，当I和I-之间的距离小于I和I+之间的距
 
 #####  在caffe中添加triplet_loss_layer
 [参考](http://blog.csdn.net/tangwei2014/article/details/46815231)
+
+
+
+————————————————————————————————————————————————————————————
+自己在写triplet_loss_layer的时候，在google triplet loss的时候，发现github上已经有人实现了triplet_loss_layer:  
+1.针对triplet_loss_layer对image数据层的讨论：[链接](https://github.com/BVLC/caffe/issues/2982)  
+2.github上关于triplet_loss_layer的相关实现：[链接](https://github.com/BVLC/caffe/commit/954689e4980b06a53c210ba27d0a3b0f22ea3d06)    [github](https://github.com/BVLC/caffe/tree/954689e4980b06a53c210ba27d0a3b0f22ea3d06)
