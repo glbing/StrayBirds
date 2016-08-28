@@ -119,8 +119,8 @@ safe: false
 highlighter: rouge
 title: 我的网站
 description: 天天向上
-#theme: kunka
-theme: minima
+theme: kunka
+#theme: minima
 disqusname: glbing
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
